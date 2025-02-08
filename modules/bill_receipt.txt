@@ -1,0 +1,11 @@
+--- BILL RECEIPT ---
+Item	Quantity	Price	Total
+Tomatoes	20		100	2000
+Onions		20		35	700
+Potatoes	20		50	1000
+Oil		20		80	1600
+------------------------------
+Subtotal: 5300
+Tax (5%): 265.0
+Final Total: 5565.0
+------------------------------
