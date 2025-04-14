@@ -1,0 +1,19 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Patient List{% endblock %}
+
+{% block content %}
+    <h2 class="mb-4">All Registered Patients</h2>
+    {% if patients %}
+        <ul class="list-group">
+            {% for patient in patients %}
+                <li class="list-group-item">
+                    <strong>{{ patient.name }}</strong> — Age: {{ patient.age }}, Gender: {{ patient.get_gender_display }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No patients registered yet.</p>
+    {% endif %}
+    <a href="/" class="btn btn-link mt-3">Back to Home</a>
+{% endblock %}
