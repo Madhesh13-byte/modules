@@ -64,7 +64,7 @@ Frontend runs at: `http://localhost:3000`
 - ✏️ Update a book
 - 🗑️ Delete a book
 
-___
+---
 
 ## 🛠 Tech Stack
 
@@ -79,5 +79,4 @@ ___
 This project is open source and free to use.
 
 ---
-
 > Created for learning and practice.
