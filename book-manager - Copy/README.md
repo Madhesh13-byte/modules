@@ -64,13 +64,7 @@ Frontend runs at: `http://localhost:3000`
 - ✏️ Update a book
 - 🗑️ Delete a book
 
----
-
-## 📸 Screenshots
-
-_Add screenshots here if needed._
-
----
+___
 
 ## 🛠 Tech Stack
 
